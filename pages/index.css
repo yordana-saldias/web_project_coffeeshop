@@ -13,7 +13,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .nav {
   display: flex;
   flex-direction: row;
@@ -30,6 +29,32 @@
 .nav__link {
 }
 
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.header__title {
+}
+.header__description {
+}
+.header__image {
+  position: absolute;
+  right: 0;
+}
+.header__footer {
+}
+.header__column {
+}
+.header__column-heading {
+}
+.header__list {
+  list-style-type: none;
+  padding: 0;
+}
+.header__list-item {
+}
+.header__address {
+}
 .content {
 }
 .recipes {
