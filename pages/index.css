@@ -78,8 +78,6 @@
   right: 5px;
   top: 124px;
 }
-.header__footer {
-}
 .header__schedule {
   position: absolute;
   left: 80px;
@@ -101,4 +99,18 @@
 .content {
 }
 .recipes {
+}
+.recipes__title {
+}
+.recipes__subtitle {
+}
+.recipes__videos {
+}
+.recipes__iframe {
+}
+.recipes__video-item {
+}
+.recipes__video-caption {
+}
+.recipes__caption-text {
 }
