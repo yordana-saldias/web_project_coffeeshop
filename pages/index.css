@@ -14,6 +14,22 @@
   background-size: cover;
 }
 
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav__logo {
+  position: relative;
+}
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+}
+.nav__link {
+}
+
 .content {
 }
 .recipes {
