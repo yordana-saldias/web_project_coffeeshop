@@ -37,6 +37,7 @@
 }
 .nav__link {
   color: #000000;
+  font-weight: 500;
   text-decoration: none;
 }
 .header__title {
@@ -44,10 +45,20 @@
   max-width: 709px;
   display: flex;
   flex-direction: column;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
 }
 .header__span-accent {
   display: flex;
   flex-direction: column;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  font-weight: normal;
 }
 .header__description {
   display: flex;
@@ -56,6 +67,9 @@
   left: 80px;
   max-width: 683px;
   margin-top: 28px;
+  font-family: Noto Serif, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 .header__image {
   width: 646px;
@@ -67,21 +81,21 @@
 .header__footer {
 }
 .header__schedule {
-  display: flex;
-  flex-direction: column;
   position: absolute;
   left: 80px;
   bottom: 40px;
 }
 
 .header__address {
-  display: flex;
   margin-top: auto;
   position: absolute;
   right: 80px;
   bottom: 40px;
 }
 .header__footer-text {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  color: #838383;
 }
 .content {
 }
