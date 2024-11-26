@@ -7,7 +7,6 @@
   line-height: 20px;
 }
 .header {
-  background-color: (#ffffff);
   background-image: url(../images/background_header.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -67,7 +66,7 @@
   left: 80px;
   max-width: 683px;
   margin-top: 28px;
-  font-family: Noto Serif, "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
