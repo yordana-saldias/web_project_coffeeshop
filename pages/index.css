@@ -7,10 +7,11 @@
   line-height: 20px;
 }
 .header {
-  background-color: blue;
+  background-color: (ffffff);
   background-image: url(../images/background_header.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content {
