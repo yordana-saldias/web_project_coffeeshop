@@ -39,12 +39,23 @@
   color: #000000;
   text-decoration: none;
 }
-.header__span-accent {
-}
 .header__title {
+  margin: 252px auto 0 80px;
+  max-width: 709px;
+  display: flex;
+  flex-direction: column;
+}
+.header__span-accent {
+  display: flex;
+  flex-direction: column;
 }
 .header__description {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 80px;
   max-width: 683px;
+  margin-top: 28px;
 }
 .header__image {
   width: 646px;
@@ -56,12 +67,16 @@
 .header__footer {
 }
 .header__schedule {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   left: 80px;
   bottom: 40px;
 }
 
 .header__address {
+  display: flex;
+  margin-top: auto;
   position: absolute;
   right: 80px;
   bottom: 40px;
