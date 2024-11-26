@@ -7,7 +7,7 @@
   line-height: 20px;
 }
 .header {
-  background-color: (ffffff);
+  background-color: (#ffffff);
   background-image: url(../images/background_header.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -99,6 +99,15 @@
 .content {
 }
 .recipes {
+  background-image: url(../images/background_recipes.svg);
+  background-color: #0a2750;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  box-sizing: border-box;
 }
 .recipes__title {
 }
@@ -106,9 +115,9 @@
 }
 .recipes__videos {
 }
-.recipes__iframe {
-}
 .recipes__video-item {
+}
+.recipes__iframe {
 }
 .recipes__video-caption {
 }
