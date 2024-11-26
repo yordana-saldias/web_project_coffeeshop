@@ -6,3 +6,14 @@
   font-size: 16px;
   line-height: 20px;
 }
+.header {
+  background-color: blue;
+  background-image: url(../images/background_header.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content {
+}
+.recipes {
+}
