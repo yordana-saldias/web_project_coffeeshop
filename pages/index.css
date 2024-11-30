@@ -161,7 +161,14 @@
   height: 100%;
   box-sizing: border-box;
 }
+.reservation__title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+}
 .reservation__form {
+  margin: 0;
 }
 .reservation__form-fieldset {
   /*margenes*/
@@ -169,12 +176,21 @@
 .form-fielset {
 }
 .form__label {
+  font-weight: 500;
+  line-height: 20px;
 }
 .form__label_checkbox {
 }
 .form__input {
+  font-size: 20px;
+  line-height: 30px;
+}
+.form__input::placeholder {
+  color: #838383;
 }
 .form__buttom {
+  font-weight: 500;
+  line-height: 20px;
 }
 .form__buttom:hover {
   opacity: 70%;
