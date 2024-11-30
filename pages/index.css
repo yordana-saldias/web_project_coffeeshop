@@ -164,10 +164,16 @@
 .reservation__form {
 }
 .reservation__form-fieldset {
+  /*margenes*/
+}
+.form-fielset {
 }
 .form__label {
 }
 .form__input {
 }
 .form__buttom {
+}
+.form__buttom:hover {
+  opacity: 70%;
 }
