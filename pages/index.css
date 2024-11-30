@@ -204,8 +204,10 @@
   height: 60px;
   padding: 0;
 }
-.form__input: [type= "checkbox"] {
-
+.form__input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
 }
 .form__input::placeholder {
   color: #838383;
@@ -214,7 +216,7 @@
 .form__buttom {
   font-weight: 500;
   line-height: 20px;
-  border-radius: 2px;
+  border-radius: 4px;
   width: 385px;
   height: 60px;
   background-color: #2f80ed;
