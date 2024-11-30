@@ -159,4 +159,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  box-sizing: border-box;
+}
+.reservation__form {
+}
+.reservation__form-fieldset {
+}
+.form__label {
+}
+.form__input {
+}
+.form__buttom {
 }
