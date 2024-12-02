@@ -21,13 +21,13 @@
 }
 
 .footer__social {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 
 .footer__social-heading {
   margin: 0 0 20px;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 16px;
 }
 
 .footer__list {
@@ -38,8 +38,12 @@
 
 .footer__list-item {
   margin: 16px 0 0;
+  line-height: 20px;
 }
-
+.footer__list-item_position-right {
+  display: flex;
+  justify-content: flex-end;
+}
 .footer__social-link {
   text-decoration: none;
   color: #fff;
@@ -63,4 +67,5 @@
 }
 .footer__copyright {
   margin: 108px auto 60px 80px;
+  line-height: 20px;
 }
