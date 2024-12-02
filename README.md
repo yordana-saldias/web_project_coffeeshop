@@ -9,9 +9,11 @@
 ## Características del proyecto
 
 - HTML5 semántico
+- Css avanzado
 - Flexbox
 - Posicionamiento
 - Formularios
+- Embeber contenido
 
 # Mejoras
 
