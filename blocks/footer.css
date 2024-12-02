@@ -1,0 +1,60 @@
+.footer {
+  box-sizing: border-box;
+  background-color: #0a2850;
+  position: relative;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
+
+.footer__logo {
+}
+
+.footer__logo-img {
+  background-size: 58px 80px;
+}
+
+.footer__social {
+  margin-left: 40px;
+}
+
+.footer__social-heading {
+  margin: 0 0 20px;
+  color: white;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin: 16px 0 0;
+  color: white;
+}
+
+.footer__social-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  background-size: 16px;
+  margin: 0 10px 0 0;
+}
+
+.footer__circle {
+}
+.footer__copyright {
+  color: white;
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
+  margin: 0;
+  color: white;
+  bottom: 60px;
+}
