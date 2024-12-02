@@ -124,42 +124,38 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
           <form class="form reservation__form">
-            <fieldset class="reservation__fielset">
-              <label class="reservation__label"
+            <fieldset class="form__fielset">
+              <label class="form__label"
                 >Nombre *
-                <input
-                  type="text"
-                  class="reservation__input"
-                  placeholder="Nombre"
-                />
+                <input type="text" class="form__input" placeholder="Nombre" />
               </label>
-              <label class="reservation__label"
+              <label class="form__label"
                 >Número de comensales *
                 <input
                   type="number"
                   min="1"
                   max="8"
                   placeholder="1-8"
-                  class="reservation__input"
+                  class="form__input"
                 />
               </label>
-              <label class="reservation__label"
+              <label class="form__label"
                 >Fecha y hora *
-                <input type="date" class="reservation__input" />
+                <input type="date" class="form__input" />
               </label>
-              <label class="reservation__label"
+              <label class="form__label"
                 >Tu correo electrónico *
                 <input
                   type="email"
                   placeholder="email@email.com"
-                  class="reservation__input"
+                  class="form__input"
                 />
               </label>
-              <button type="submit" class="reservation__buttom">
+              <button type="submit" class="form__buttom">
                 Reservar una mesa
               </button>
-              <label class="reservation__label reservation__label_checkbox">
-                <input class="reservation__input" type="checkbox" />
+              <label class="form__label form__label_checkbox">
+                <input class="form__input" type="checkbox" />
                 Acepto los términos de uso</label
               >
             </fieldset>
