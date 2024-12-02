@@ -6,6 +6,8 @@
   background-size: cover;
   height: 100%;
   box-sizing: border-box;
+  position: relative;
+  z-index: 1;
 }
 .reservation__title {
   font-weight: 500;
