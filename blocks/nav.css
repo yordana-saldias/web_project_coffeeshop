@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: relative;
+  padding: 30px;
+}
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 30px 80px;
+}
+.nav__link {
+  color: #000000;
+  font-weight: 500;
+  text-decoration: none;
+}

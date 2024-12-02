@@ -1,0 +1,55 @@
+.reservation__form {
+  max-width: 385px;
+  padding: 80px 0 120px 0;
+  margin: 0 auto 0 auto;
+}
+.reservation__fielset {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-style: none;
+}
+
+.reservation__label {
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.reservation__label_checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.reservation__input {
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+}
+.reservation__input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+.reservation__input::placeholder {
+  color: #838383;
+  padding: 20px 15px;
+}
+.reservation__buttom {
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 4px;
+  width: 385px;
+  height: 60px;
+  background-color: #2f80ed;
+  color: #ffffff;
+  border: 0;
+}
+.reservation__buttom:hover {
+  opacity: 70%;
+}
